@@ -1,0 +1,5 @@
+name: ds_ai_env
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+prefix: /opt/anaconda3/envs/ds_ai_env
