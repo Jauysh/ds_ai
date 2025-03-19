@@ -13,7 +13,9 @@ dependencies:
   - attrs=24.3.0=py312hca03da5_0
   - babel=2.16.0=py312hca03da5_0
   - beautifulsoup4=4.12.3=py312hca03da5_0
+  - blas=1.0=openblas
   - bleach=6.2.0=py312hca03da5_0
+  - bottleneck=1.4.2=py312ha86b861_0
   - brotli-python=1.0.9=py312h313beb8_9
   - bzip2=1.0.8=h80987f9_6
   - c-ares=1.19.1=h80987f9_0
@@ -22,12 +24,15 @@ dependencies:
   - cffi=1.17.1=py312h3eb5a62_1
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
   - comm=0.2.1=py312hca03da5_0
+  - contourpy=1.3.1=py312h48ca7d4_0
+  - cycler=0.11.0=pyhd3eb1b0_0
   - cyrus-sasl=2.1.28=h9131b1a_1
   - debugpy=1.8.11=py312h313beb8_0
   - decorator=5.1.1=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.6.4=h313beb8_0
+  - fonttools=4.55.3=py312h80987f9_0
   - freetype=2.12.1=h1192e45_0
   - gettext=0.21.0=hbdbcc25_2
   - h11=0.14.0=py312hca03da5_0
@@ -56,25 +61,36 @@ dependencies:
   - jupyterlab_pygments=0.3.0=py312hca03da5_0
   - jupyterlab_server=2.27.3=py312hca03da5_0
   - jupyterlab_widgets=3.0.13=py312hca03da5_0
+  - kiwisolver=1.4.8=py312h313beb8_0
   - krb5=1.20.1=hf3e1bf2_1
+  - lcms2=2.16=he93ba84_0
+  - lerc=4.0.0=h313beb8_0
   - libabseil=20240116.2=cxx17_h313beb8_0
   - libcurl=8.12.1=hde089ae_0
   - libcxx=14.0.6=h848a8c0_0
+  - libdeflate=1.22=h80987f9_0
   - libedit=3.1.20230828=h80987f9_0
   - libev=4.33=h1a28f6b_1
   - libffi=3.4.4=hca03da5_1
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
   - libglib=2.78.4=h0a96307_0
   - libiconv=1.16=h80987f9_3
   - libnghttp2=1.57.0=h62f6fdd_0
+  - libopenblas=0.3.21=h269037a_0
   - libpng=1.6.39=h80987f9_0
   - libpq=17.4=h02f6b3c_0
   - libprotobuf=4.25.3=h514c7bf_0
   - libsodium=1.0.18=h1a28f6b_0
   - libssh2=1.11.1=h3e2b118_0
+  - libtiff=4.5.1=hc9ead59_1
+  - libwebp-base=1.3.2=h80987f9_1
   - libxml2=2.13.5=h0b34f26_0
   - llvm-openmp=14.0.6=hc6e5704_0
   - lz4-c=1.9.4=h313beb8_1
   - markupsafe=3.0.2=py312h80987f9_0
+  - matplotlib=3.10.0=py312hca03da5_0
+  - matplotlib-base=3.10.0=py312h7ef442a_0
   - matplotlib-inline=0.1.6=py312hca03da5_0
   - mistune=3.1.2=py312hca03da5_0
   - mysql=8.4.0=h3a6587f_1
@@ -87,15 +103,21 @@ dependencies:
   - nest-asyncio=1.6.0=py312hca03da5_0
   - notebook=7.3.2=py312hca03da5_0
   - notebook-shim=0.2.4=py312hca03da5_0
+  - numexpr=2.10.1=py312h5d9532f_0
+  - numpy=2.2.2=py312h7f4fdc5_0
+  - numpy-base=2.2.2=py312he047099_0
+  - openjpeg=2.5.2=h54b8e55_0
   - openldap=2.6.4=he7ef289_0
   - openssl=3.0.16=h02f6b3c_0
   - overrides=7.4.0=py312hca03da5_0
   - packaging=24.2=py312hca03da5_0
+  - pandas=2.2.3=py312hcf29cfe_0
   - pandoc=2.12=hca03da5_3
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.4=py312hca03da5_0
   - pcre2=10.42=hb066dcc_1
   - pexpect=4.8.0=pyhd3eb1b0_3
+  - pillow=11.1.0=py312h84e58ab_0
   - pip=25.0=py312hca03da5_0
   - platformdirs=3.10.0=py312hca03da5_0
   - prometheus_client=0.21.0=py312hca03da5_0
@@ -106,6 +128,7 @@ dependencies:
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pygments=2.15.1=py312hca03da5_1
+  - pyparsing=3.2.0=py312hca03da5_0
   - pyqt=6.7.1=py312h313beb8_0
   - pyqt6-sip=13.9.1=py312h80987f9_0
   - pysocks=1.7.1=py312hca03da5_0
@@ -113,6 +136,8 @@ dependencies:
   - python-dateutil=2.9.0post0=py312hca03da5_2
   - python-fastjsonschema=2.20.0=py312hca03da5_0
   - python-json-logger=3.2.1=py312hca03da5_0
+  - python-tzdata=2023.3=pyhd3eb1b0_0
+  - pytz=2024.1=py312hca03da5_0
   - pyyaml=6.0.2=py312h80987f9_0
   - pyzmq=26.2.0=py312h313beb8_0
   - qtbase=6.7.2=hb2d0045_1
@@ -129,8 +154,9 @@ dependencies:
   - rfc3339-validator=0.1.4=py312hca03da5_0
   - rfc3986-validator=0.1.1=py312hca03da5_0
   - rpds-py=0.22.3=py312h2aea54e_0
+  - seaborn=0.13.2=py312hca03da5_2
   - send2trash=1.8.2=py312hca03da5_1
-  - setuptools=75.8.0=py312hca03da5_0
+  - setuptools=72.1.0=py312hca03da5_0
   - sip=6.10.0=py312h313beb8_0
   - six=1.16.0=pyhd3eb1b0_1
   - sniffio=1.3.0=py312hca03da5_0
@@ -145,6 +171,7 @@ dependencies:
   - typing-extensions=4.12.2=py312hca03da5_0
   - typing_extensions=4.12.2=py312hca03da5_0
   - tzdata=2025a=h04d1e81_0
+  - unicodedata2=15.1.0=py312h80987f9_1
   - urllib3=2.3.0=py312hca03da5_0
   - wcwidth=0.2.5=pyhd3eb1b0_0
   - webencodings=0.5.1=py312hca03da5_2
